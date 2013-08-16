@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="10" tilewidth="56" tileheight="56">
+ <tileset firstgid="1" name="lv2_clmap_base" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/lv2_clmap_base.png" width="112" height="112"/>
+ </tileset>
+ <tileset firstgid="5" name="lv2_h_wall" tilewidth="56" tileheight="172">
+  <image source="图块资源/lv2/lv2_h_wall.png" width="56" height="172"/>
+ </tileset>
+ <tileset firstgid="6" name="lv2_v_wall" tilewidth="172" tileheight="56">
+  <image source="图块资源/lv2/lv2_v_wall.png" width="172" height="56"/>
+ </tileset>
+ <tileset firstgid="7" name="meta_tiles" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/meta_tiles.png" width="112" height="56"/>
+  <tile id="0">
+   <properties>
+    <property name="move" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="move" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="9" name="grass" tilewidth="56" tileheight="68">
+  <image source="图块资源/lv2/grass.png" width="56" height="68"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="lv2_stone" tilewidth="56" tileheight="72">
+  <image source="图块资源/lv2/lv2_stone.png" width="56" height="144"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="12" name="lv2_tree" tilewidth="56" tileheight="60">
+  <image source="图块资源/lv2/lv2_tree.png" width="56" height="121"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="14" name="lv2_sz1" tilewidth="56" tileheight="103">
+  <image source="图块资源/lv2/lv2_sz1.png" width="56" height="103"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="15" name="lv2_sz2" tilewidth="56" tileheight="77">
+  <image source="图块资源/lv2/lv2_sz2.png" width="56" height="77"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="16" name="riever" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/riever.png" width="56" height="728"/>
+ </tileset>
+ <tileset firstgid="29" name="lv2_tex2" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/lv2_tex2.png" width="560" height="560"/>
+ </tileset>
+ <tileset firstgid="129" name="floor1" tilewidth="56" tileheight="68">
+  <image source="图块资源/lv2/floor1.png" width="56" height="68"/>
+ </tileset>
+ <tileset firstgid="130" name="floor2" tilewidth="56" tileheight="53">
+  <image source="图块资源/lv2/floor2.png" width="56" height="53"/>
+ </tileset>
+ <tileset firstgid="131" name="floor3" tilewidth="56" tileheight="61">
+  <image source="图块资源/lv2/floor3.png" width="56" height="61"/>
+ </tileset>
+ <tileset firstgid="132" name="kulo" tilewidth="56" tileheight="62">
+  <image source="图块资源/lv2/kulo.png" width="56" height="62"/>
+ </tileset>
+ <tileset firstgid="133" name="nangua" tilewidth="56" tileheight="53">
+  <image source="图块资源/lv2/nangua.png" width="56" height="53"/>
+ </tileset>
+ <tileset firstgid="134" name="tile_box" tilewidth="56" tileheight="70">
+  <image source="图块资源/lv2/tile_box.png" width="112" height="70"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="box"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="136" name="wl1" tilewidth="56" tileheight="64">
+  <image source="图块资源/lv2/wl1.png" width="56" height="64"/>
+ </tileset>
+ <tileset firstgid="137" name="wl2" tilewidth="56" tileheight="53">
+  <image source="图块资源/lv2/wl2.png" width="56" height="53"/>
+ </tileset>
+ <tileset firstgid="138" name="wl3" tilewidth="44" tileheight="65">
+  <image source="图块资源/lv2/wl3.png" width="44" height="65"/>
+ </tileset>
+ <tileset firstgid="139" name="rightwl" tilewidth="36" tileheight="112">
+  <image source="图块资源/lv2/rightwl.png" width="36" height="112"/>
+ </tileset>
+ <tileset firstgid="140" name="leftwl" tilewidth="44" tileheight="112">
+  <image source="图块资源/lv2/leftwl.png" width="44" height="112"/>
+ </tileset>
+ <layer name="collidableLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYKcC5oBiZD47EWLoejlwYHQ5fPbj04PLDFz24nMLNn8Rsg+b/fjUEKufHD/g8jsx8UKNNAPCAOh3BLU=
+  </data>
+ </layer>
+ <layer name="backgroundLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyNkUkOwDAIAyHl/29uD0GypibKwQKZzUBGxPqQYp8LdL767NO9anO0C7XK34C1bha1TXp7F/UrZm0Zfz1ufnMu5u41zeB/TjtOvv6PtRonzz8rR5ThTvkvw7cBag==
+  </data>
+ </layer>
+ <layer name="floor" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeyJGgFh2oA7EGECtQoFcTiLWAWJtE/YZAbATExkBsAsSmJNoN0wey3w6I7QnoAYWTPBTbALEtVJ8tEXpBwA2I3bFgDyB2hWJyASV6aQEA1ZMH3Q==
+  </data>
+ </layer>
+ <layer name="stoneLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyNkuEKwCAIhP2zQKj12L72NpbwdWtjB+FZapdZ7EZ5sV88sYP7uTp4DN+xx5wNuW3YGIu8y74j1xHbEJP1tL4hRvWHnKmvdVJDFc2r+x08bH57ooof9uwBwR7oGbWoZf/0nmZzT6k7wf9bzcef+blyD8GYEQA=
+  </data>
+ </layer>
+ <objectgroup name="soldierObjects" width="16" height="10">
+  <object name="soldier_pos" x="56" y="112" width="56" height="56"/>
+ </objectgroup>
+ <objectgroup name="enemyObject" width="16" height="10">
+  <object x="672" y="224" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="3"/>
+   </properties>
+  </object>
+  <object x="336" y="336" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="groundObject" width="16" height="10"/>
+</map>

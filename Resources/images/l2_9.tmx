@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="56" tileheight="56">
+ <tileset firstgid="1" name="tile_ground" tilewidth="56" tileheight="56">
+  <image source="图块资源/tile_ground.png" width="112" height="336"/>
+ </tileset>
+ <tileset firstgid="13" name="tile_wall_vert_mid" tilewidth="56" tileheight="56">
+  <image source="图块资源/tile_wall_vert_mid.png" width="56" height="224"/>
+ </tileset>
+ <tileset firstgid="17" name="tile_wall_vert_end" tilewidth="56" tileheight="56">
+  <image source="图块资源/tile_wall_vert_end.png" width="56" height="336"/>
+ </tileset>
+ <tileset firstgid="23" name="tile_wall_horiz" tilewidth="167" tileheight="58">
+  <image source="图块资源/tile_wall_horiz.png" width="334" height="58"/>
+ </tileset>
+ <tileset firstgid="25" name="tile_ground_end" tilewidth="56" tileheight="56">
+  <image source="图块资源/tile_ground_end.png" width="637" height="146"/>
+ </tileset>
+ <tileset firstgid="47" name="tile_box" tilewidth="56" tileheight="70">
+  <image source="图块资源/tile_box.png" width="112" height="70"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="box"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="56" tileheight="56">
+  <image source="图块资源/meta_tiles.png" width="112" height="56"/>
+  <tile id="0">
+   <properties>
+    <property name="move" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="move" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="51" name="ground_obstacle" tilewidth="56" tileheight="56">
+  <image source="图块资源/ground_obstacle.png" width="56" height="112"/>
+ </tileset>
+ <layer name="collidableLayer" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1lGEKQCEIg72S7/6Hi/4+NrfSAgmkbH5qGRE5bN+QoXiv9CG/yqWKid7M4Hkhv8sSMWL6OsyYPke3c8/l7DB366d0sv5TMSr2rEYTfb33zno5b1U92DnWu3+GJ/Ny0y9Kn/oLOvpO/wCH35QtoFlKcg==
+  </data>
+ </layer>
+ <layer name="backgroundLayer" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzVlOEOwyAIhMFa17V9/+ddTUpyuwJL5/6syZcKCvFAnUVk/jPazfluTwcVfA9AyWYWx7a8zzPexp0Vxh48v0Le7WA//1tgM956y2e6J6AG45asZd1Yx0Xea60feoFxGtQ3qz3bKtd9jJ4vzG391YBszsB+/IJM78jH9yLS6u0J1xWqn8VGejwdnLsEMVnds96UwP9tT/guZdpG3jnrT5PrW8U+tPnuoD+jERV4ARNiB6E=
+  </data>
+ </layer>
+ <layer name="stoneLayer" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytVAkOwjAMywe47/sQ9zlp//8brtQKYzJgQCRraZclbpyuZ2Z9u1vvx3UDyP6ENtCUPa5X9PR4XYGO5DN5r8Z7IT4n3yifxqVvGRnFXclnHilfkeWy5loeb4/ft/0LtarEr+g8Hh/dS/2oUL7cnjXR77mPXs/1vMqjrOaqB9fOaD0h/nN71n4cY7pAXeqE5wpYAxtg66x3wB44AEfgBJyBC1Czx354ZypjrG/K9+3MsL7K7Z3Wnl+kr96vZHpf1ffyKS/W+ZWv/xeeZ87rcdJ6zK8FDIFRfBfmaGr3WVsAy1hjEGN55oI/i7Fh/srM1iexNxWJJBo=
+  </data>
+ </layer>
+ <objectgroup name="soldierObjects" width="20" height="20">
+  <object name="soldier_pos" x="1008" y="224" width="56" height="56"/>
+ </objectgroup>
+ <objectgroup name="enemyObject" width="20" height="20">
+  <object x="840" y="280" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="616" y="392" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="0"/>
+   </properties>
+  </object>
+  <object x="112" y="224" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="448" y="280" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="672" y="168" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="0"/>
+   </properties>
+  </object>
+  <object x="168" y="168" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="2"/>
+   </properties>
+  </object>
+  <object x="280" y="504" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="504" y="504" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="840" y="448" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="168" y="672" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="56" y="560" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="0"/>
+   </properties>
+  </object>
+  <object x="112" y="840" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="2"/>
+   </properties>
+  </object>
+  <object x="336" y="896" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="2"/>
+   </properties>
+  </object>
+  <object x="560" y="840" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="672" y="952" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="0"/>
+   </properties>
+  </object>
+  <object x="840" y="840" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="1"/>
+   </properties>
+  </object>
+  <object x="1008" y="840" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="2"/>
+   </properties>
+  </object>
+  <object x="1008" y="952" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="2"/>
+   </properties>
+  </object>
+  <object x="504" y="504" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="groundObject" width="20" height="20">
+  <object x="560" y="560" width="56" height="56">
+   <properties>
+    <property name="type" value="gas"/>
+   </properties>
+  </object>
+  <object x="392" y="280" width="56" height="56">
+   <properties>
+    <property name="type" value="gas"/>
+   </properties>
+  </object>
+  <object x="840" y="168" width="56" height="56">
+   <properties>
+    <property name="type" value="gas"/>
+   </properties>
+  </object>
+  <object x="112" y="448" width="56" height="56">
+   <properties>
+    <property name="type" value="gas"/>
+   </properties>
+  </object>
+  <object x="616" y="840" width="56" height="56">
+   <properties>
+    <property name="type" value="gas"/>
+   </properties>
+  </object>
+  <object x="448" y="952" width="56" height="56">
+   <properties>
+    <property name="type" value="gas"/>
+   </properties>
+  </object>
+  <object x="112" y="952" width="56" height="56">
+   <properties>
+    <property name="type" value="gas"/>
+   </properties>
+  </object>
+  <object x="672" y="168" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="112" y="336" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="168" y="728" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="336" y="896" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="504" y="448" width="56" height="56">
+   <properties>
+    <property name="type" value="sg_l"/>
+   </properties>
+  </object>
+  <object x="168" y="280" width="56" height="56">
+   <properties>
+    <property name="type" value="sg_r"/>
+   </properties>
+  </object>
+  <object x="560" y="784" width="56" height="56">
+   <properties>
+    <property name="type" value="sg_l"/>
+   </properties>
+  </object>
+  <object x="392" y="952" width="56" height="56">
+   <properties>
+    <property name="type" value="sg_r"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

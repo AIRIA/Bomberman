@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="19" height="18" tilewidth="56" tileheight="56">
+ <tileset firstgid="1" name="lv2_clmap_base" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/lv2_clmap_base.png" width="112" height="112"/>
+ </tileset>
+ <tileset firstgid="5" name="lv2_h_wall" tilewidth="56" tileheight="172">
+  <image source="图块资源/lv2/lv2_h_wall.png" width="56" height="172"/>
+ </tileset>
+ <tileset firstgid="6" name="lv2_v_wall" tilewidth="172" tileheight="56">
+  <image source="图块资源/lv2/lv2_v_wall.png" width="172" height="56"/>
+ </tileset>
+ <tileset firstgid="7" name="meta_tiles" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/meta_tiles.png" width="112" height="56"/>
+  <tile id="0">
+   <properties>
+    <property name="move" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="move" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="9" name="grass" tilewidth="56" tileheight="68">
+  <image source="图块资源/lv2/grass.png" width="56" height="68"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="lv2_stone" tilewidth="56" tileheight="72">
+  <image source="图块资源/lv2/lv2_stone.png" width="56" height="144"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="12" name="lv2_tree" tilewidth="56" tileheight="60">
+  <image source="图块资源/lv2/lv2_tree.png" width="56" height="121"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="14" name="lv2_sz1" tilewidth="56" tileheight="103">
+  <image source="图块资源/lv2/lv2_sz1.png" width="56" height="103"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="15" name="lv2_sz2" tilewidth="56" tileheight="77">
+  <image source="图块资源/lv2/lv2_sz2.png" width="56" height="77"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="16" name="riever" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/riever.png" width="56" height="728"/>
+ </tileset>
+ <tileset firstgid="29" name="lv2_tex2" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv2/lv2_tex2.png" width="560" height="560"/>
+ </tileset>
+ <tileset firstgid="129" name="floor1" tilewidth="56" tileheight="68">
+  <image source="图块资源/lv2/floor1.png" width="56" height="68"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="130" name="floor2" tilewidth="56" tileheight="53">
+  <image source="图块资源/lv2/floor2.png" width="56" height="53"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="131" name="floor3" tilewidth="56" tileheight="61">
+  <image source="图块资源/lv2/floor3.png" width="56" height="61"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="132" name="kulo" tilewidth="56" tileheight="62">
+  <image source="图块资源/lv2/kulo.png" width="56" height="62"/>
+ </tileset>
+ <tileset firstgid="133" name="nangua" tilewidth="56" tileheight="53">
+  <image source="图块资源/lv2/nangua.png" width="56" height="53"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="134" name="tile_box" tilewidth="56" tileheight="70">
+  <image source="图块资源/lv2/tile_box.png" width="112" height="70"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="box"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="136" name="wl1" tilewidth="56" tileheight="64">
+  <image source="图块资源/lv2/wl1.png" width="56" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="137" name="wl2" tilewidth="56" tileheight="53">
+  <image source="图块资源/lv2/wl2.png" width="56" height="53"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="138" name="wl3" tilewidth="44" tileheight="65">
+  <image source="图块资源/lv2/wl3.png" width="44" height="65"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="139" name="rightwl" tilewidth="36" tileheight="112">
+  <image source="图块资源/lv2/rightwl.png" width="36" height="112"/>
+ </tileset>
+ <tileset firstgid="140" name="leftwl" tilewidth="44" tileheight="112">
+  <image source="图块资源/lv2/leftwl.png" width="44" height="112"/>
+ </tileset>
+ <layer name="collidableLayer" width="19" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYKcy5qAA4zIL3Vx2AuLoZuFSQ8gt2NxGif9wmYXuH2JpfGaR4hZa+5FQfBESx2YWOe4ZqHjE5xZ6pK/BFo/43EdM2FGr3KF22QfDAHOpCjs=
+  </data>
+ </layer>
+ <layer name="backgroundLayer" width="19" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYAJiRirQzEDMQiWaGu4Zddeou0bdNequgXAXAK4QA08=
+  </data>
+ </layer>
+ <layer name="floor" width="19" height="18">
+  <data encoding="base64" compression="zlib">
+   eJyt0ccKQkEMheH7Ivbee++9C/aFfacu1ffHX1CQ6wgXYuAj5JDFkNG0/5UdDjgFXHAjiBDCAhFEkUYGWYEc8qiihrpAA030McBQYISx4i8uuvn+I9fPqrobzFV7E0wxwxyLVzfqub/ECmtssMUO+1c36rl/wPHjfSecte87qPJfu++64qa4gyrXZ+9ughkWASts8MALn4AfAcQQR0IgiRQKKKIkUEYFLbTREeiip/23HlZ9QCw=
+  </data>
+ </layer>
+ <layer name="stoneLayer" width="19" height="18">
+  <data encoding="base64" compression="zlib">
+   eJytVMsOwzAI8zWnfHMv0G776LUaaNQCLVmLhHgELJxErAC2G/SBjyy4Jt7/2lV2VdMWfA11Wd79o/9pWLDcIZ3iygrFEeuq8FzN/DYQx3w21yg/vo+IpTjLP3Gci3kocp5a1EesWX7Ms3pH5jByzlg+r1Bc/S0/z7Div84wtKhjrNl7YhuxhCzz+ZV3rJbUougB1Yn1O1bHd1fM8PId0Q1rxX278A11AFe9
+  </data>
+ </layer>
+ <objectgroup name="soldierObjects" width="19" height="18">
+  <object name="soldier_pos" x="504" y="448" width="56" height="56"/>
+ </objectgroup>
+ <objectgroup name="enemyObject" width="19" height="18">
+  <object x="840" y="224" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="3"/>
+   </properties>
+  </object>
+  <object x="672" y="224" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="4"/>
+   </properties>
+  </object>
+  <object x="392" y="840" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="6"/>
+   </properties>
+  </object>
+  <object x="336" y="224" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="5"/>
+   </properties>
+  </object>
+  <object x="112" y="224" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="6"/>
+   </properties>
+  </object>
+  <object x="952" y="616" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="7"/>
+   </properties>
+  </object>
+  <object x="616" y="392" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="6"/>
+   </properties>
+  </object>
+  <object x="168" y="784" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="7"/>
+   </properties>
+  </object>
+  <object x="784" y="392" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="5"/>
+   </properties>
+  </object>
+  <object x="336" y="392" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="7"/>
+   </properties>
+  </object>
+  <object x="112" y="560" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="3"/>
+   </properties>
+  </object>
+  <object x="280" y="784" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="7"/>
+   </properties>
+  </object>
+  <object x="448" y="560" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="4"/>
+   </properties>
+  </object>
+  <object x="840" y="560" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="6"/>
+   </properties>
+  </object>
+  <object x="616" y="560" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="5"/>
+   </properties>
+  </object>
+  <object x="672" y="840" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="5"/>
+   </properties>
+  </object>
+  <object x="840" y="728" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="groundObject" width="19" height="18">
+  <object x="504" y="784" width="56" height="56">
+   <properties>
+    <property name="type" value="shishou"/>
+   </properties>
+  </object>
+  <object x="784" y="224" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="392" y="560" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="616" y="560" width="56" height="56">
+   <properties>
+    <property name="type" value="shishou"/>
+   </properties>
+  </object>
+  <object x="224" y="224" width="56" height="56">
+   <properties>
+    <property name="type" value="shishou"/>
+   </properties>
+  </object>
+  <object x="896" y="560" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="616" y="392" width="56" height="56">
+   <properties>
+    <property name="type" value="shishou"/>
+   </properties>
+  </object>
+  <object x="112" y="560" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="392" y="392" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+  <object x="504" y="224" width="56" height="56">
+   <properties>
+    <property name="type" value="hand"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

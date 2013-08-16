@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="10" tilewidth="56" tileheight="56">
+ <tileset firstgid="1" name="lv3_bcmap_base" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv3/lv3_bcmap_base.png" width="112" height="112"/>
+ </tileset>
+ <tileset firstgid="5" name="lv3_beike" tilewidth="56" tileheight="60">
+  <image source="图块资源/lv3/lv3_beike.png" width="56" height="60"/>
+ </tileset>
+ <tileset firstgid="6" name="lv3_bei" tilewidth="56" tileheight="69">
+  <image source="图块资源/lv3/lv3_bei.png" width="56" height="69"/>
+ </tileset>
+ <tileset firstgid="7" name="lv3_dafangzi2" tilewidth="56" tileheight="177">
+  <image source="图块资源/lv3/lv3_dafangzi2.png" width="224" height="177"/>
+ </tileset>
+ <tileset firstgid="11" name="lv3_house" tilewidth="56" tileheight="67">
+  <image source="图块资源/lv3/lv3_house.png" width="56" height="67"/>
+ </tileset>
+ <tileset firstgid="12" name="lv3_dafangzi" tilewidth="56" tileheight="197">
+  <image source="图块资源/lv3/lv3_dafangzi.png" width="168" height="197"/>
+ </tileset>
+ <tileset firstgid="15" name="lv3_ice2" tilewidth="56" tileheight="68">
+  <image source="图块资源/lv3/lv3_ice2.png" width="56" height="68"/>
+ </tileset>
+ <tileset firstgid="16" name="lv3_xueqiu" tilewidth="56" tileheight="65">
+  <image source="图块资源/lv3/lv3_xueqiu.png" width="56" height="65"/>
+ </tileset>
+ <tileset firstgid="17" name="lv3_diaoxiang" tilewidth="56" tileheight="82">
+  <image source="图块资源/lv3/lv3_diaoxiang.png" width="56" height="82"/>
+ </tileset>
+ <tileset firstgid="18" name="lv3_stone1" tilewidth="56" tileheight="65">
+  <image source="图块资源/lv3/lv3_stone1.png" width="56" height="65"/>
+ </tileset>
+ <tileset firstgid="19" name="lv3_stone2" tilewidth="56" tileheight="65">
+  <image source="图块资源/lv3/lv3_stone2.png" width="56" height="65"/>
+ </tileset>
+ <tileset firstgid="20" name="lv3_tree" tilewidth="56" tileheight="81">
+  <image source="图块资源/lv3/lv3_tree.png" width="56" height="81"/>
+ </tileset>
+ <tileset firstgid="21" name="lv3_xuedi1" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv3/lv3_xuedi1.png" width="560" height="280"/>
+ </tileset>
+ <tileset firstgid="71" name="lv3_xuedi2" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv3/lv3_xuedi2.png" width="280" height="280"/>
+ </tileset>
+ <tileset firstgid="96" name="lv3_xueniaoxiang" tilewidth="56" tileheight="205">
+  <image source="图块资源/lv3/lv3_xueniaoxiang.png" width="168" height="205"/>
+ </tileset>
+ <tileset firstgid="99" name="lv3_xueren" tilewidth="56" tileheight="71">
+  <image source="图块资源/lv3/lv3_xueren.png" width="56" height="71"/>
+ </tileset>
+ <tileset firstgid="100" name="lv3_zhuankuai1" tilewidth="58" tileheight="61">
+  <image source="图块资源/lv3/lv3_zhuankuai1.png" width="58" height="61"/>
+ </tileset>
+ <tileset firstgid="101" name="riever" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv3/riever.png" width="56" height="728"/>
+ </tileset>
+ <tileset firstgid="114" name="tile_box" tilewidth="56" tileheight="70">
+  <image source="图块资源/lv3/tile_box.png" width="112" height="70"/>
+  <tile id="1">
+   <properties>
+    <property name="type" value="box"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="116" name="wl1" tilewidth="56" tileheight="64">
+  <image source="图块资源/lv3/wl1.png" width="56" height="64"/>
+ </tileset>
+ <tileset firstgid="117" name="wl2" tilewidth="56" tileheight="53">
+  <image source="图块资源/lv3/wl2.png" width="56" height="53"/>
+ </tileset>
+ <tileset firstgid="118" name="wl3" tilewidth="44" tileheight="65">
+  <image source="图块资源/lv3/wl3.png" width="44" height="65"/>
+ </tileset>
+ <tileset firstgid="119" name="meta_tiles" tilewidth="56" tileheight="56">
+  <image source="图块资源/lv3/meta_tiles.png" width="112" height="56"/>
+  <tile id="0">
+   <properties>
+    <property name="move" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="move" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="collidableLayer" width="24" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy9UkEKADAI6tft+buLmcLYQQiZZbauqv6AA2DcEe+ZFvszbS/ztjmul6lGTmWDmjS3yX+yQ8Jj9m4v9ybKu7sbmzP9nyTXrVb3fokLF1FwFw==
+  </data>
+ </layer>
+ <layer name="backgroundLayer" width="24" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYAJiRhrRzEDMQkOaVu4edf+o+4eC+wE/vAJZ
+  </data>
+ </layer>
+ <layer name="floor" width="24" height="10">
+  <data encoding="base64" compression="zlib">
+   eJytk+sKgCAMhfd4XY2yyKLL+79FExyMtZk/GnxgdnZOGusBYCqgN9C0K0M+W1i5mjYgG7Kz9anA9blszeNCbrGWdXz40B3lPC5lz8oIQj8iy0d/SR3sG6kqxCWaHzJ4RW/+j72R0SVtnd63Bd6xh+7dCZqMbkg5Eq3HmgfK4N50vrmwh/TaLHh4z90DtTk3DQ==
+  </data>
+ </layer>
+ <layer name="stoneLayer" width="24" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy1UkEKwzAM82WnntL0idtYOwYl+T/MBQsU1fRWg0jiyIpj+2Vm+014Oz6Oh43WHS3WzN/Eh7XbGLuG/hScOcDcEneL+PltPcOgb3bmY53J35L9QtynQPUnidUaHfsqOXfhMh/65SJ/rlGXO+0DgD9Bn7nZW9rvmuhbEsf10RzQ62xW9C9F7pGjzk9mmT7PUpM926G/OX434ev4A2hFQJk=
+  </data>
+ </layer>
+ <objectgroup name="soldierObjects" width="24" height="10">
+  <object name="soldier_pos" x="112" y="56" width="56" height="56"/>
+ </objectgroup>
+ <objectgroup name="enemyObject" width="24" height="10">
+  <object x="896" y="336" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="11"/>
+   </properties>
+  </object>
+  <object x="168" y="280" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="12"/>
+   </properties>
+  </object>
+  <object x="336" y="280" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="11"/>
+   </properties>
+  </object>
+  <object x="280" y="448" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="9"/>
+   </properties>
+  </object>
+  <object x="504" y="168" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="13"/>
+   </properties>
+  </object>
+  <object x="560" y="392" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="8"/>
+   </properties>
+  </object>
+  <object x="728" y="168" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="10"/>
+   </properties>
+  </object>
+  <object x="840" y="112" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="10"/>
+   </properties>
+  </object>
+  <object x="1176" y="112" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="13"/>
+   </properties>
+  </object>
+  <object x="1120" y="336" width="56" height="56">
+   <properties>
+    <property name="enemyType" value="12"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="groundObject" width="24" height="10">
+  <object x="224" y="224" width="56" height="56">
+   <properties>
+    <property name="type" value="pangxie"/>
+   </properties>
+  </object>
+  <object x="392" y="336" width="56" height="56">
+   <properties>
+    <property name="type" value="pangxie"/>
+   </properties>
+  </object>
+  <object x="952" y="224" width="56" height="56">
+   <properties>
+    <property name="type" value="pangxie"/>
+   </properties>
+  </object>
+  <object x="560" y="224" width="56" height="56">
+   <properties>
+    <property name="type" value="pangxie"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
